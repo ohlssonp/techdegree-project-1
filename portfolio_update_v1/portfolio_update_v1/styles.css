@@ -73,6 +73,22 @@ header .profile-image {
   border: 3px solid white;
   transition: all .5s;
 }
+.hobbies-image {
+  margin-top: 50px;
+  margin-left: -21px;
+  width: 462px;
+  border-radius: 5%;
+  border: 2px solid grey;
+  transition: width 10s;
+  transition: margin-left 4s;
+  transition: transform 0.1s;
+}
+.hobbies-image:hover {
+  margin-left: -128px;
+  width: 690px;
+  transform: rotate(360deg);
+
+}
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
