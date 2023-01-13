@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+nav {
   width: 100%;
   background: black;
   min-height: 30px;
@@ -67,12 +67,12 @@ header {
 }
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
-}
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+  border: 1px solid black;
+  transition: all 4s;
+  }
 .hobbies-image {
   margin-top: 50px;
   margin-left: -21px;
@@ -90,7 +90,9 @@ header .profile-image {
 
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  width: 450px;
+  height: 450px;
+  transform: scale(1.7) rotate(1080deg);
 }
 .tag {
   background-color: #efefef;
@@ -104,7 +106,7 @@ header .profile-image:hover {
   background-color: #222;
   color: yellow;
 }
-.card {
+section {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -114,7 +116,7 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
+section:hover {
   border-color: #ff99ff;
 }
 
